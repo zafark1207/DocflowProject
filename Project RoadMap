@@ -1,0 +1,435 @@
+# Directum RX ga o‘xshash platforma yaratish uchun Ish Reja (Roadmap)
+
+## 1-BOSQICH — Analitika va rejalashtirish (1–2 hafta)
+
+### Vazifalar
+
+* Biznes talablarni yig‘ish
+* Directum RX funksiyalarini analiz qilish
+* MVP scope belgilash
+* Texnik stack tanlash
+* Arxitektura chizish
+* Database modeli tayyorlash
+
+### Natija
+
+✅ Technical Specification (TZ)
+✅ System Architecture
+✅ ER Diagram
+✅ Project Plan
+
+---
+
+# 2-BOSQICH — Dizayn (1–2 hafta)
+
+## UI/UX
+
+### Sahifalar
+
+* Login
+* Dashboard
+* Documents
+* Tasks
+* Workflow
+* Notifications
+* Admin Panel
+
+### Vazifalar
+
+* Figma design
+* Responsive UI
+* Design system
+
+### Natija
+
+✅ Figma prototip
+✅ UI kit
+✅ UX flow
+
+---
+
+# 3-BOSQICH — Infrastructure Setup (3–5 kun)
+
+## Vazifalar
+
+### Backend setup
+
+* Django/NestJS init
+* PostgreSQL ulash
+* Redis
+* Docker
+
+### Frontend setup
+
+* React/Next.js init
+* Tailwind setup
+* Axios
+* State management
+
+### DevOps
+
+* Git repository
+* CI/CD
+* Nginx
+
+### Natija
+
+✅ Git structure
+✅ Docker environment
+✅ Dev/Staging server
+
+---
+
+# 4-BOSQICH — Authentication System (1 hafta)
+
+## Modul
+
+* Register
+* Login
+* JWT auth
+* Refresh token
+* Roles
+* Permissions
+
+## Qo‘shimcha
+
+* 2FA
+* LDAP integration
+
+### Natija
+
+✅ Auth API
+✅ Role management
+✅ Protected routes
+
+---
+
+# 5-BOSQICH — Organization Structure (4–5 kun)
+
+## Funksiyalar
+
+* Department
+* Position
+* Employee structure
+* Hierarchy
+
+### Natija
+
+✅ Organization tree
+✅ User-department relation
+
+---
+
+# 6-BOSQICH — Documents Module (2–3 hafta)
+
+## CRUD
+
+* Create document
+* Edit
+* Delete
+* Archive
+
+## Features
+
+* File upload
+* Versioning
+* PDF preview
+* Metadata
+* Search
+
+## Status
+
+* Draft
+* Review
+* Approved
+* Rejected
+
+### Natija
+
+✅ Full document management
+
+---
+
+# 7-BOSQICH — Workflow Engine (2–4 hafta)
+
+## Vazifalar
+
+* Approval chain
+* BPMN logic
+* Dynamic workflow
+* Parallel approval
+* Sequential approval
+
+## Workflow
+
+1. Employee creates document
+2. Head approves
+3. Legal review
+4. Director approves
+
+### Natija
+
+✅ Workflow constructor
+✅ Approval system
+
+---
+
+# 8-BOSQICH — Task Management (1 hafta)
+
+## Features
+
+* Create task
+* Assign
+* Deadline
+* Reminder
+* Kanban
+
+### Natija
+
+✅ Task board
+✅ Notifications
+
+---
+
+# 9-BOSQICH — Notification System (4–5 kun)
+
+## Kanallar
+
+* Email
+* Telegram
+* In-app
+
+## Natija
+
+✅ Realtime notifications
+
+---
+
+# 10-BOSQICH — Search System (4–5 kun)
+
+## Features
+
+* Full text search
+* Filters
+* Elasticsearch
+
+### Natija
+
+✅ Fast search
+
+---
+
+# 11-BOSQICH — E-IMZO Integratsiyasi (1–2 hafta)
+
+## Vazifalar
+
+* E-IMZO integration
+* PKCS#7
+* Signature verification
+
+### Natija
+
+✅ Electronic signature
+
+---
+
+# 12-BOSQICH — Reporting & Analytics (1 hafta)
+
+## Dashboard
+
+* KPI
+* Pending tasks
+* Workflow statistics
+
+## Export
+
+* PDF
+* Excel
+
+### Natija
+
+✅ Analytics dashboard
+
+---
+
+# 13-BOSQICH — Audit & Security (4–5 kun)
+
+## Features
+
+* Logs
+* History
+* IP tracking
+* Activity monitoring
+
+### Natija
+
+✅ Audit system
+
+---
+
+# 14-BOSQICH — Testing (1–2 hafta)
+
+## Testlar
+
+* Backend testing
+* Frontend testing
+* API testing
+* Load testing
+* Security testing
+
+### Natija
+
+✅ Stable release candidate
+
+---
+
+# 15-BOSQICH — Deployment (3–5 kun)
+
+## Production
+
+* VPS/Cloud deploy
+* Nginx
+* SSL
+* Monitoring
+
+### Natija
+
+✅ Live production system
+
+---
+
+# 16-BOSQICH — Mobile App (Optional)
+
+## Flutter
+
+* Push notifications
+* Tasks
+* Documents
+* Approvals
+
+### Natija
+
+✅ Android/iOS app
+
+---
+
+# 17-BOSQICH — AI Features (Future)
+
+## AI
+
+* OCR
+* Smart search
+* AI assistant
+* Auto summary
+
+### Natija
+
+✅ Intelligent EDMS
+
+---
+
+# MVP uchun Minimal Reja (2–3 oy)
+
+## Birinchi versiyada:
+
+* Login/Auth
+* Roles
+* Document CRUD
+* Workflow
+* Tasks
+* Notifications
+* Admin panel
+
+---
+
+# Team Structure
+
+| Rol                | Soni |
+| ------------------ | ---- |
+| Project Manager    | 1    |
+| Business Analyst   | 1    |
+| Backend Developer  | 2    |
+| Frontend Developer | 2    |
+| UI/UX Designer     | 1    |
+| QA Engineer        | 1    |
+| DevOps             | 1    |
+
+---
+
+# Tavsiya etilgan stack
+
+## Backend
+
+* Python Django + DRF
+
+## Frontend
+
+* React + Next.js
+
+## Database
+
+* PostgreSQL
+
+## Queue
+
+* Celery + Redis
+
+## Storage
+
+* MinIO
+
+## Search
+
+* Elasticsearch
+
+---
+
+# Sprint Plan
+
+| Sprint   | Vazifa           |
+| -------- | ---------------- |
+| Sprint 1 | Auth + Setup     |
+| Sprint 2 | User/Roles       |
+| Sprint 3 | Documents        |
+| Sprint 4 | Workflow         |
+| Sprint 5 | Tasks            |
+| Sprint 6 | Notifications    |
+| Sprint 7 | Reports          |
+| Sprint 8 | Testing + Deploy |
+
+---
+
+# Birinchi kundan boshlash uchun
+
+## Day 1
+
+* Git repository yaratish
+* Backend init
+* Frontend init
+* Docker setup
+
+## Day 2
+
+* Auth module
+* PostgreSQL schema
+
+## Day 3
+
+* Roles & permissions
+* User management
+
+## Day 4–7
+
+* Document CRUD
+
+## 2-hafta
+
+* Workflow system
+
+## 3-hafta
+
+* Tasks + notifications
+
+## 4-hafta
+
+* Testing + deploy
